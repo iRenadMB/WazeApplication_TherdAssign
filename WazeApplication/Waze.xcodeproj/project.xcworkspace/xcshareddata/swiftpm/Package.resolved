@@ -1,0 +1,14 @@
+{
+  "pins" : [
+    {
+      "identity" : "svevideoui",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/SergioEstevao/SVEVideoUI",
+      "state" : {
+        "revision" : "82c2aff90d9382befe3385f20713c81d5db94c34",
+        "version" : "0.3.2"
+      }
+    }
+  ],
+  "version" : 2
+}

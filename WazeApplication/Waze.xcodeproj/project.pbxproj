@@ -1,0 +1,606 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A11F31D02A16617A0096F8B4 /* WazeApplicationApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = A11F31CF2A16617A0096F8B4 /* WazeApplicationApp.swift */; };
+		A11F31D42A16617C0096F8B4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A11F31D32A16617C0096F8B4 /* Assets.xcassets */; };
+		A11F31D72A16617C0096F8B4 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A11F31D62A16617C0096F8B4 /* Preview Assets.xcassets */; };
+		A11F31DE2A1661EE0096F8B4 /* IconPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = A11F31DD2A1661EE0096F8B4 /* IconPage.swift */; };
+		A11F31E02A16621A0096F8B4 /* LoadingPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = A11F31DF2A16621A0096F8B4 /* LoadingPage.swift */; };
+		A11F31E22A16629E0096F8B4 /* OnboardingPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = A11F31E12A16629E0096F8B4 /* OnboardingPage.swift */; };
+		A11F31EA2A1769A30096F8B4 /* LoadingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A11F31E92A1769A30096F8B4 /* LoadingView.swift */; };
+		A11F31EC2A1770C50096F8B4 /* Commints.swift in Sources */ = {isa = PBXBuildFile; fileRef = A11F31EB2A1770C50096F8B4 /* Commints.swift */; };
+		A11F31F22A17B3100096F8B4 /* OnBoardingComment.swift in Sources */ = {isa = PBXBuildFile; fileRef = A11F31F12A17B3100096F8B4 /* OnBoardingComment.swift */; };
+		A11F31F82A17F31C0096F8B4 /* ButtonPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = A11F31F72A17F31C0096F8B4 /* ButtonPage.swift */; };
+		A11F31FA2A17F3B20096F8B4 /* PolicyAndPrivacyText.swift in Sources */ = {isa = PBXBuildFile; fileRef = A11F31F92A17F3B20096F8B4 /* PolicyAndPrivacyText.swift */; };
+		A11F32052A1804270096F8B4 /* ConnictingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A11F32042A1804270096F8B4 /* ConnictingView.swift */; };
+		A11F32092A189C010096F8B4 /* LogInPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = A11F32082A189C010096F8B4 /* LogInPage.swift */; };
+		A11F320B2A18BA8C0096F8B4 /* MapPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = A11F320A2A18BA8C0096F8B4 /* MapPage.swift */; };
+		A11F320D2A18F7030096F8B4 /* SigningLoadingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A11F320C2A18F7030096F8B4 /* SigningLoadingView.swift */; };
+		A11F32102A18F9970096F8B4 /* SignUpPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = A11F320F2A18F9970096F8B4 /* SignUpPage.swift */; };
+		A11F32122A19052E0096F8B4 /* SignInButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = A11F32112A19052E0096F8B4 /* SignInButton.swift */; };
+		A11F32142A19C1640096F8B4 /* SignInLoadingPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = A11F32132A19C1640096F8B4 /* SignInLoadingPage.swift */; };
+		A1F8CBD32A19E7B900C93E2E /* SVEVideoUI in Frameworks */ = {isa = PBXBuildFile; productRef = A1F8CBD22A19E7B900C93E2E /* SVEVideoUI */; };
+		A1F8CBDB2A19E96D00C93E2E /* MessengerApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1F8CBDA2A19E96D00C93E2E /* MessengerApp.swift */; };
+		A1F8CBDD2A19E96D00C93E2E /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1F8CBDC2A19E96D00C93E2E /* ContentView.swift */; };
+		A1F8CBDF2A19E96E00C93E2E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A1F8CBDE2A19E96E00C93E2E /* Assets.xcassets */; };
+		A1F8CBE22A19E96E00C93E2E /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A1F8CBE12A19E96E00C93E2E /* Preview Assets.xcassets */; };
+		A1F8CBE72A19ECFD00C93E2E /* ChatingPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1F8CBE62A19ECFD00C93E2E /* ChatingPage.swift */; };
+		A1F8CC032A19F5E700C93E2E /* BotResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1F8CC022A19F5E700C93E2E /* BotResponse.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		A11F31CC2A16617A0096F8B4 /* Waze.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Waze.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A11F31CF2A16617A0096F8B4 /* WazeApplicationApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WazeApplicationApp.swift; sourceTree = "<group>"; };
+		A11F31D32A16617C0096F8B4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A11F31D62A16617C0096F8B4 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		A11F31DD2A1661EE0096F8B4 /* IconPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IconPage.swift; sourceTree = "<group>"; };
+		A11F31DF2A16621A0096F8B4 /* LoadingPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoadingPage.swift; sourceTree = "<group>"; };
+		A11F31E12A16629E0096F8B4 /* OnboardingPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingPage.swift; sourceTree = "<group>"; };
+		A11F31E92A1769A30096F8B4 /* LoadingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoadingView.swift; sourceTree = "<group>"; };
+		A11F31EB2A1770C50096F8B4 /* Commints.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Commints.swift; sourceTree = "<group>"; };
+		A11F31F12A17B3100096F8B4 /* OnBoardingComment.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnBoardingComment.swift; sourceTree = "<group>"; };
+		A11F31F72A17F31C0096F8B4 /* ButtonPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonPage.swift; sourceTree = "<group>"; };
+		A11F31F92A17F3B20096F8B4 /* PolicyAndPrivacyText.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PolicyAndPrivacyText.swift; sourceTree = "<group>"; };
+		A11F32042A1804270096F8B4 /* ConnictingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConnictingView.swift; sourceTree = "<group>"; };
+		A11F32082A189C010096F8B4 /* LogInPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LogInPage.swift; sourceTree = "<group>"; };
+		A11F320A2A18BA8C0096F8B4 /* MapPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapPage.swift; sourceTree = "<group>"; };
+		A11F320C2A18F7030096F8B4 /* SigningLoadingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SigningLoadingView.swift; sourceTree = "<group>"; };
+		A11F320F2A18F9970096F8B4 /* SignUpPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpPage.swift; sourceTree = "<group>"; };
+		A11F32112A19052E0096F8B4 /* SignInButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignInButton.swift; sourceTree = "<group>"; };
+		A11F32132A19C1640096F8B4 /* SignInLoadingPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignInLoadingPage.swift; sourceTree = "<group>"; };
+		A1F8CBD82A19E96D00C93E2E /* Messenger.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Messenger.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A1F8CBDA2A19E96D00C93E2E /* MessengerApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MessengerApp.swift; sourceTree = "<group>"; };
+		A1F8CBDC2A19E96D00C93E2E /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		A1F8CBDE2A19E96E00C93E2E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A1F8CBE12A19E96E00C93E2E /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		A1F8CBE62A19ECFD00C93E2E /* ChatingPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatingPage.swift; sourceTree = "<group>"; };
+		A1F8CC022A19F5E700C93E2E /* BotResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BotResponse.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A11F31C92A16617A0096F8B4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A1F8CBD32A19E7B900C93E2E /* SVEVideoUI in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A1F8CBD52A19E96D00C93E2E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A11F31C32A16617A0096F8B4 = {
+			isa = PBXGroup;
+			children = (
+				A11F31CE2A16617A0096F8B4 /* WazeApplication */,
+				A1F8CBD92A19E96D00C93E2E /* Messenger */,
+				A11F31CD2A16617A0096F8B4 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A11F31CD2A16617A0096F8B4 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A11F31CC2A16617A0096F8B4 /* Waze.app */,
+				A1F8CBD82A19E96D00C93E2E /* Messenger.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A11F31CE2A16617A0096F8B4 /* WazeApplication */ = {
+			isa = PBXGroup;
+			children = (
+				A11F31FE2A17F6010096F8B4 /* Comments */,
+				A11F31CF2A16617A0096F8B4 /* WazeApplicationApp.swift */,
+				A11F31D32A16617C0096F8B4 /* Assets.xcassets */,
+				A11F31D52A16617C0096F8B4 /* Preview Content */,
+				A11F32042A1804270096F8B4 /* ConnictingView.swift */,
+				A11F31DD2A1661EE0096F8B4 /* IconPage.swift */,
+				A11F31FF2A17F6580096F8B4 /* LoadingView */,
+				A11F31FD2A17F5590096F8B4 /* OnBoarding */,
+				A11F320E2A18F7110096F8B4 /* SignIn */,
+				A11F32082A189C010096F8B4 /* LogInPage.swift */,
+				A11F320A2A18BA8C0096F8B4 /* MapPage.swift */,
+			);
+			path = WazeApplication;
+			sourceTree = "<group>";
+		};
+		A11F31D52A16617C0096F8B4 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				A11F31D62A16617C0096F8B4 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		A11F31FD2A17F5590096F8B4 /* OnBoarding */ = {
+			isa = PBXGroup;
+			children = (
+				A11F31F72A17F31C0096F8B4 /* ButtonPage.swift */,
+				A11F31F92A17F3B20096F8B4 /* PolicyAndPrivacyText.swift */,
+				A11F31E12A16629E0096F8B4 /* OnboardingPage.swift */,
+			);
+			path = OnBoarding;
+			sourceTree = "<group>";
+		};
+		A11F31FE2A17F6010096F8B4 /* Comments */ = {
+			isa = PBXGroup;
+			children = (
+				A11F31EB2A1770C50096F8B4 /* Commints.swift */,
+				A11F31F12A17B3100096F8B4 /* OnBoardingComment.swift */,
+			);
+			path = Comments;
+			sourceTree = "<group>";
+		};
+		A11F31FF2A17F6580096F8B4 /* LoadingView */ = {
+			isa = PBXGroup;
+			children = (
+				A11F31E92A1769A30096F8B4 /* LoadingView.swift */,
+				A11F31DF2A16621A0096F8B4 /* LoadingPage.swift */,
+			);
+			path = LoadingView;
+			sourceTree = "<group>";
+		};
+		A11F320E2A18F7110096F8B4 /* SignIn */ = {
+			isa = PBXGroup;
+			children = (
+				A11F320C2A18F7030096F8B4 /* SigningLoadingView.swift */,
+				A11F32132A19C1640096F8B4 /* SignInLoadingPage.swift */,
+				A11F32112A19052E0096F8B4 /* SignInButton.swift */,
+				A11F320F2A18F9970096F8B4 /* SignUpPage.swift */,
+			);
+			path = SignIn;
+			sourceTree = "<group>";
+		};
+		A1F8CBD92A19E96D00C93E2E /* Messenger */ = {
+			isa = PBXGroup;
+			children = (
+				A1F8CBDA2A19E96D00C93E2E /* MessengerApp.swift */,
+				A1F8CBDC2A19E96D00C93E2E /* ContentView.swift */,
+				A1F8CBE62A19ECFD00C93E2E /* ChatingPage.swift */,
+				A1F8CBDE2A19E96E00C93E2E /* Assets.xcassets */,
+				A1F8CBE02A19E96E00C93E2E /* Preview Content */,
+				A1F8CC022A19F5E700C93E2E /* BotResponse.swift */,
+			);
+			path = Messenger;
+			sourceTree = "<group>";
+		};
+		A1F8CBE02A19E96E00C93E2E /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				A1F8CBE12A19E96E00C93E2E /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A11F31CB2A16617A0096F8B4 /* Waze */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A11F31DA2A16617C0096F8B4 /* Build configuration list for PBXNativeTarget "Waze" */;
+			buildPhases = (
+				A11F31C82A16617A0096F8B4 /* Sources */,
+				A11F31C92A16617A0096F8B4 /* Frameworks */,
+				A11F31CA2A16617A0096F8B4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Waze;
+			packageProductDependencies = (
+				A1F8CBD22A19E7B900C93E2E /* SVEVideoUI */,
+			);
+			productName = WazeApplication;
+			productReference = A11F31CC2A16617A0096F8B4 /* Waze.app */;
+			productType = "com.apple.product-type.application";
+		};
+		A1F8CBD72A19E96D00C93E2E /* Messenger */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A1F8CBE32A19E96E00C93E2E /* Build configuration list for PBXNativeTarget "Messenger" */;
+			buildPhases = (
+				A1F8CBD42A19E96D00C93E2E /* Sources */,
+				A1F8CBD52A19E96D00C93E2E /* Frameworks */,
+				A1F8CBD62A19E96D00C93E2E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Messenger;
+			productName = Messenger;
+			productReference = A1F8CBD82A19E96D00C93E2E /* Messenger.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A11F31C42A16617A0096F8B4 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1430;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+					A11F31CB2A16617A0096F8B4 = {
+						CreatedOnToolsVersion = 14.3;
+					};
+					A1F8CBD72A19E96D00C93E2E = {
+						CreatedOnToolsVersion = 14.3;
+					};
+				};
+			};
+			buildConfigurationList = A11F31C72A16617A0096F8B4 /* Build configuration list for PBXProject "Waze" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A11F31C32A16617A0096F8B4;
+			packageReferences = (
+				A1F8CBD12A19E7B900C93E2E /* XCRemoteSwiftPackageReference "SVEVideoUI" */,
+			);
+			productRefGroup = A11F31CD2A16617A0096F8B4 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A11F31CB2A16617A0096F8B4 /* Waze */,
+				A1F8CBD72A19E96D00C93E2E /* Messenger */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A11F31CA2A16617A0096F8B4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A11F31D72A16617C0096F8B4 /* Preview Assets.xcassets in Resources */,
+				A11F31D42A16617C0096F8B4 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A1F8CBD62A19E96D00C93E2E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A1F8CBE22A19E96E00C93E2E /* Preview Assets.xcassets in Resources */,
+				A1F8CBDF2A19E96E00C93E2E /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A11F31C82A16617A0096F8B4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A11F31F22A17B3100096F8B4 /* OnBoardingComment.swift in Sources */,
+				A11F31F82A17F31C0096F8B4 /* ButtonPage.swift in Sources */,
+				A11F31D02A16617A0096F8B4 /* WazeApplicationApp.swift in Sources */,
+				A11F31EC2A1770C50096F8B4 /* Commints.swift in Sources */,
+				A11F31DE2A1661EE0096F8B4 /* IconPage.swift in Sources */,
+				A11F32122A19052E0096F8B4 /* SignInButton.swift in Sources */,
+				A11F31E02A16621A0096F8B4 /* LoadingPage.swift in Sources */,
+				A11F320B2A18BA8C0096F8B4 /* MapPage.swift in Sources */,
+				A11F320D2A18F7030096F8B4 /* SigningLoadingView.swift in Sources */,
+				A11F32052A1804270096F8B4 /* ConnictingView.swift in Sources */,
+				A11F32092A189C010096F8B4 /* LogInPage.swift in Sources */,
+				A11F31E22A16629E0096F8B4 /* OnboardingPage.swift in Sources */,
+				A11F31FA2A17F3B20096F8B4 /* PolicyAndPrivacyText.swift in Sources */,
+				A11F32102A18F9970096F8B4 /* SignUpPage.swift in Sources */,
+				A11F32142A19C1640096F8B4 /* SignInLoadingPage.swift in Sources */,
+				A11F31EA2A1769A30096F8B4 /* LoadingView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A1F8CBD42A19E96D00C93E2E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A1F8CC032A19F5E700C93E2E /* BotResponse.swift in Sources */,
+				A1F8CBDD2A19E96D00C93E2E /* ContentView.swift in Sources */,
+				A1F8CBDB2A19E96D00C93E2E /* MessengerApp.swift in Sources */,
+				A1F8CBE72A19ECFD00C93E2E /* ChatingPage.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		A11F31D82A16617C0096F8B4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		A11F31D92A16617C0096F8B4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A11F31DB2A16617C0096F8B4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"WazeApplication/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.myorganization.WazeApplication;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A11F31DC2A16617C0096F8B4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"WazeApplication/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.myorganization.WazeApplication;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		A1F8CBE42A19E96E00C93E2E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Messenger/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.myorganization.Messenger;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A1F8CBE52A19E96E00C93E2E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Messenger/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.myorganization.Messenger;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A11F31C72A16617A0096F8B4 /* Build configuration list for PBXProject "Waze" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A11F31D82A16617C0096F8B4 /* Debug */,
+				A11F31D92A16617C0096F8B4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A11F31DA2A16617C0096F8B4 /* Build configuration list for PBXNativeTarget "Waze" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A11F31DB2A16617C0096F8B4 /* Debug */,
+				A11F31DC2A16617C0096F8B4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A1F8CBE32A19E96E00C93E2E /* Build configuration list for PBXNativeTarget "Messenger" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A1F8CBE42A19E96E00C93E2E /* Debug */,
+				A1F8CBE52A19E96E00C93E2E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		A1F8CBD12A19E7B900C93E2E /* XCRemoteSwiftPackageReference "SVEVideoUI" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/SergioEstevao/SVEVideoUI";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 0.3.2;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		A1F8CBD22A19E7B900C93E2E /* SVEVideoUI */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = A1F8CBD12A19E7B900C93E2E /* XCRemoteSwiftPackageReference "SVEVideoUI" */;
+			productName = SVEVideoUI;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = A11F31C42A16617A0096F8B4 /* Project object */;
+}
